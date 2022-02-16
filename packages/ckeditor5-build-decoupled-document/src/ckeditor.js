@@ -41,6 +41,7 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
 import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak';
+import DynamicFields from './packages/dynamic-fields';
 
 export default class DecoupledEditor extends DecoupledEditorBase {}
 
@@ -80,7 +81,8 @@ DecoupledEditor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	TextTransformation,
-	PageBreak
+	PageBreak,
+	DynamicFields
 ];
 
 // Editor configuration.
