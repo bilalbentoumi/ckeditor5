@@ -34,6 +34,7 @@ import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak';
 import DynamicFields from './packages/dynamic-fields';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
 import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
+import GeneralHtmlSupport from '@ckeditor/ckeditor5-html-support/src/generalhtmlsupport';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -66,7 +67,8 @@ ClassicEditor.builtinPlugins = [
 	PageBreak,
 	DynamicFields,
 	SimpleUploadAdapter,
-	SourceEditing
+	SourceEditing,
+	GeneralHtmlSupport
 ];
 
 // Editor configuration.
